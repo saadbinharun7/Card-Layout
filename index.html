@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards layout</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        body {
+            background-image: url('BackgroundImage.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-roboto">
+    
+    <div class="p-6 md:p-12">
+        <header class="sticky top-0 z-50 bg-white/70 backdrop-blur-md shadow-md mb-8">
+
+            <div class="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
+
+            <h1 class="text-2xl md:text-3xl font-bold text-green-800">
+                𝔼𝕩𝕒𝕞𝕡𝕝𝕖 𝕋𝕣𝕒𝕧𝕖𝕝𝕝𝕚𝕟𝕘 𝔸𝕘𝕖𝕟𝕔𝕪
+            </h1>
+            <nav class="space-x-4 hidden md:block">
+                    <a href="#" class="inline-flex items-center text-lime-700 hover:underline font-medium">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="green" class="mr-1"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+                        Home
+                    </a>
+                
+                
+                <a href="#" class="inline-flex items-center text-lime-700 hover:underline font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="green" class="mr-1"><path d="M480-40q-91 0-171.5-34.5t-140-94q-59.5-59.5-94-140T40-480q0-92 34.5-172t94-139.5q59.5-59.5 140-94T480-920q92 0 172 34.5t139.5 94Q851-732 885.5-652T920-480q0 91-34.5 171.5t-94 140Q732-109 652-74.5T480-40Zm0-440Zm-25 311q10 10 23 10t23-10l288-288q10-10 10-24t-10-24L501-793q-10-10-23-10t-23 10L167-505q-10 10-10 24t10 24l288 288ZM319-361v-160q0-18 11-29t29-11h166l-42-44 56-56 140 140-140 140-56-56 42-44H399v120h-80Zm161 241q151 0 255.5-104.5T840-480q0-151-104.5-255.5T480-840q-151 0-255.5 104.5T120-480q0 151 104.5 255.5T480-120Z"/></svg>
+                    Destinations</a>
+                <a href="#" class="inline-flex items-center text-lime-700 hover:underline font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="green" class="mr-1"><path d="m368-320 112-84 110 84-42-136 112-88H524l-44-136-44 136H300l110 88-42 136ZM160-160q-33 0-56.5-23.5T80-240v-135q0-11 7-19t18-10q24-8 39.5-29t15.5-47q0-26-15.5-47T105-556q-11-2-18-10t-7-19v-135q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v135q0 11-7 19t-18 10q-24 8-39.5 29T800-480q0 26 15.5 47t39.5 29q11 2 18 10t7 19v135q0 33-23.5 56.5T800-160H160Zm0-80h640v-102q-37-22-58.5-58.5T720-480q0-43 21.5-79.5T800-618v-102H160v102q37 22 58.5 58.5T240-480q0 43-21.5 79.5T160-342v102Zm320-240Z"/></svg>Tickets</a>
+                <a href="#" class="inline-flex items-center text-lime-700 hover:underline font-medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="green" class="mr-1"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>Contact</a>
+            </nav>
+            </div>
+        </header>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">   
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 [&>div]:transition [&>div]:duration-300 [&>div:hover]:bg-green-200/60">
+            <div class="bg-white/30 backdrop-blur-md p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="img1.jpg" alt="Card 1 Image" class="w-full h-40 object-cover rounded-md mb-4">
+                <h2 class="text-xl font-semibold mb-4">
+                    St. Martin's Island
+                    <span class="float-right text-yellow-500 text-2xl shadow-lg">
+                        ★★★★★
+                    </span>
+                </h2>
+                <p class="text-gray-700">
+                St. Martin's Island, Bangladesh’s only coral island, is a tropical paradise in the Bay of Bengal. Known for its white sandy beaches, crystal-clear waters, and vibrant marine life, it’s a haven for nature lovers. Visitors can explore Chhera Dwip at low tide, snorkel among colorful coral reefs, or enjoy fresh seafood. The island is accessible by ferry from Teknaf (October–April) and . . . .
+                    <a href="#" class="text-blue-600 hover:underline">
+                    Read more
+                    </a>
+                </p>
+                <div class="flex items-center justify-between mt-4">
+                    <span class="flex items-center text-blue-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue">
+                            <path d="M480-80q-106 0-173-33.5T240-200q0-24 14.5-44.5T295-280l63 59q-9 4-19.5 9T322-200q13 16 60 28t98 12q51 0 98.5-12t60.5-28q-7-8-18-13t-21-9l62-60q28 16 43 36.5t15 45.5q0 53-67 86.5T480-80Zm1-220q99-73 149-146.5T680-594q0-102-65-154t-135-52q-70 0-135 52t-65 154q0 67 49 139.5T481-300Zm-1 100Q339-304 269.5-402T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0-80Z"/>
+                        </svg>
+
+                        <a href="https://maps.app.goo.gl/WFcpMDtpg1vRHStk6" target="_blank" class="text-blue-700 hover:underline ml-1"> 
+                            Location: St. Martin's Island
+                        </a>
+
+                    </span>
+                <div class="flex items-center space-x-2">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Comment
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Rate
+                    </button>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded">
+                        Order Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white/30 backdrop-blur-md p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="img2.jpg" alt="Card 1 Image" class="w-full h-40 object-cover rounded-md mb-4">
+                <h2 class="text-xl font-semibold mb-4">
+                    Cox’s Bazar
+                    <span class="float-right text-yellow-500 text-2xl shadow-lg">
+                        ★★★
+                    </span>
+                </h2>
+                <p class="text-gray-700">
+                Cox's Bazar, renowned for the world's longest unbroken sandy beach, stretches over 120 km along Bangladesh's southeastern coast. This scenic destination attracts visitors with its golden shores, rolling waves, and vibrant sunsets over the Bay of Bengal. Key highlights include Himchari National Park's waterfalls, the serene Inani Beach, and nearby Saint Martin's Island. Ideal for swimming, surfing, and seafood feasts, it’s a year-round retreat, though November to March offers the best weather. Easily accessible from Dhaka by road or air, Cox's Bazar is . . . .
+                    <a href="#" class="text-blue-600 hover:underline">
+                    Read more
+                    </a>
+                </p>
+                <div class="flex items-center justify-between mt-4">
+                    <span class="flex items-center text-blue-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue">
+                            <path d="M480-80q-106 0-173-33.5T240-200q0-24 14.5-44.5T295-280l63 59q-9 4-19.5 9T322-200q13 16 60 28t98 12q51 0 98.5-12t60.5-28q-7-8-18-13t-21-9l62-60q28 16 43 36.5t15 45.5q0 53-67 86.5T480-80Zm1-220q99-73 149-146.5T680-594q0-102-65-154t-135-52q-70 0-135 52t-65 154q0 67 49 139.5T481-300Zm-1 100Q339-304 269.5-402T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0-80Z"/>
+                        </svg>
+
+                        <a href="https://maps.app.goo.gl/vwanCpovQ2FPppmM9" target="_blank" class="text-blue-700 hover:underline ml-1"> 
+                            Location: Cox's Bazar
+                        </a>
+
+                    </span>
+                <div class="flex items-center space-x-2">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Comment
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Rate
+                    </button>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded">
+                        Order Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white/30 backdrop-blur-md p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+                <img src="img3.jpg" alt="Card 1 Image" class="w-full h-40 object-cover rounded-md mb-4">
+                <h2 class="text-xl font-semibold mb-4">
+                    Sajek Valley
+                    <span class="float-right text-yellow-500 text-2xl shadow-lg">
+                        ★★★★
+                    </span>
+                </h2>
+                <p class="text-gray-700">
+                Sajek Valley, nestled in the Rangamati Hill Tracts, is Bangladesh’s most scenic highland escape, known as the "Queen of Hills." Perched 1,800 feet above sea level, it offers misty mountains, lush orange orchards, and indigenous tribal culture. Visitors enjoy sunrise views from Konglak Hill, cozy wooden cottages, and treks to nearby waterfalls. Accessible via a thrilling jeep ride from Khagrachhari, it’s a year-round destination, though winter (Oct–Mar) brings crisp . . . .
+                    <a href="#" class="text-blue-600 hover:underline">
+                    Read more
+                    </a>
+                </p>
+                <div class="flex items-center justify-between mt-4">
+                    <span class="flex items-center text-blue-700">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue">
+                            <path d="M480-80q-106 0-173-33.5T240-200q0-24 14.5-44.5T295-280l63 59q-9 4-19.5 9T322-200q13 16 60 28t98 12q51 0 98.5-12t60.5-28q-7-8-18-13t-21-9l62-60q28 16 43 36.5t15 45.5q0 53-67 86.5T480-80Zm1-220q99-73 149-146.5T680-594q0-102-65-154t-135-52q-70 0-135 52t-65 154q0 67 49 139.5T481-300Zm-1 100Q339-304 269.5-402T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0-80Z"/>
+                        </svg>
+
+                        <a href="https://maps.app.goo.gl/R3YUTTCWqCjUKUXi6" target="_blank" class="text-blue-700 hover:underline ml-1"> 
+                            Location: Sajek Valley
+                        </a>
+
+                    </span>
+                <div class="flex items-center space-x-2">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Comment
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Rate
+                    </button>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded">
+                        Order Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 [&>div]:transition [&>div]:duration-300 [&>div:hover]:bg-green-200/60">
+        <div class="bg-white/30 backdrop-blur-md p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="img4.jpg" alt="Card 4 Image" class="w-full h-40 object-cover rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-4">
+                Sundarbans
+                <span class="float-right text-yellow-500 text-2xl shadow-lg">
+                    ★★★★
+                </span>
+            </h2>
+            <p class="text-gray-700">
+                The Sundarbans, a UNESCO World Heritage Site, is the world’s largest mangrove forest, spanning 6,000+ sq km across Bangladesh and India. Home to the majestic Royal Bengal Tiger, it teems with wildlife like spotted deer, saltwater crocodiles, and rare river dolphins. Its labyrinth of tidal rivers, mudflats, and dense forests thrives with sundari trees (hence its name) and acts as a natural barrier against cyclones. Local communities rely on honey harvesting and fishing, while eco-tours offer thrilling boat safaris and birdwatching. A must-visit . . . . 
+                <a href="#" class="text-blue-600 hover:underline">
+                    Read more
+                </a>
+            </p>
+            <div class="flex items-center justify-between mt-4">
+                <span class="flex items-center text-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue">
+                        <path d="M480-80q-106 0-173-33.5T240-200q0-24 14.5-44.5T295-280l63 59q-9 4-19.5 9T322-200q13 16 60 28t98 12q51 0 98.5-12t60.5-28q-7-8-18-13t-21-9l62-60q28 16 43 36.5t15 45.5q0 53-67 86.5T480-80Zm1-220q99-73 149-146.5T680-594q0-102-65-154t-135-52q-70 0-135 52t-65 154q0 67 49 139.5T481-300Zm-1 100Q339-304 269.5-402T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0-80Z"/>
+                    </svg>
+                    <a href="https://maps.app.goo.gl/sGhReqhSeQBFG8tJ8" target="_blank" class="text-blue-700 hover:underline ml-1">
+                        Location: Sundarbans
+                    </a>
+                </span>
+                <div class="flex items-center space-x-2">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Comment
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Rate
+                    </button>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded">
+                        Order Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white/30 backdrop-blur-md p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="img5.jpg" alt="Card 5 Image" class="w-full h-40 object-cover rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-4">
+                Jaflong
+                <span class="float-right text-yellow-500 text-2xl shadow-lg">
+                    ★★★★★
+                </span>
+            </h2>
+            <p class="text-gray-700">
+                Jaflong, nestled in the Sylhet Division, is famed for its breathtaking Piyain River views, emerald tea gardens, and the misty Khasia-Jaintia Hills. Known for its stone-collecting beds (washed down from the Himalayas), it offers serene boat rides and waterfalls like Khasia Rajar Bari. The area’s indigenous Khasi tribes add cultural charm, while rainy season (June–September) transforms it into a lush paradise. Easily accessible from Sylhet city, Jaflong is a . . . . 
+                <a href="#" class="text-blue-600 hover:underline">
+                    Read more
+                </a>
+            </p>
+            <div class="flex items-center justify-between mt-4">
+                <span class="flex items-center text-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue">
+                        <path d="M480-80q-106 0-173-33.5T240-200q0-24 14.5-44.5T295-280l63 59q-9 4-19.5 9T322-200q13 16 60 28t98 12q51 0 98.5-12t60.5-28q-7-8-18-13t-21-9l62-60q28 16 43 36.5t15 45.5q0 53-67 86.5T480-80Zm1-220q99-73 149-146.5T680-594q0-102-65-154t-135-52q-70 0-135 52t-65 154q0 67 49 139.5T481-300Zm-1 100Q339-304 269.5-402T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0-80Z"/>
+                    </svg>
+                    <a href="https://maps.app.goo.gl/5d1GqmzxZqXgaDd88" target="_blank" class="text-blue-700 hover:underline ml-1">
+                        Location: Jaflong
+                    </a>
+                </span>
+                <div class="flex items-center space-x-2">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Comment
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Rate
+                    </button>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded">
+                        Order Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white/30 backdrop-blur-md p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="img6.jpg" alt="Card 6 Image" class="w-full h-40 object-cover rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-4">
+                Kuakata
+                <span class="float-right text-yellow-500 text-2xl shadow-lg">
+                    ★★
+                </span>
+            </h2>
+            <p class="text-gray-700">
+                Kuakata, known as the "Daughter of the Sea," is one of the few places on Earth where you can witness both sunrise and sunset over the Bay of Bengal. Located in Patuakhali, its 18 km sandy beach is fringed with coconut palms and Buddhist temples, reflecting its Rakhine tribal heritage. Key attractions include the Gangamati Reserved Forest, Fatrar Char island, and traditional fishing boats. Best visited October–March, Kuakata offers serene . . . . 
+                <a href="#" class="text-blue-600 hover:underline">
+                    Read more
+                </a>
+            </p>
+            <div class="flex items-center justify-between mt-4">
+                <span class="flex items-center text-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue">
+                        <path d="M480-80q-106 0-173-33.5T240-200q0-24 14.5-44.5T295-280l63 59q-9 4-19.5 9T322-200q13 16 60 28t98 12q51 0 98.5-12t60.5-28q-7-8-18-13t-21-9l62-60q28 16 43 36.5t15 45.5q0 53-67 86.5T480-80Zm1-220q99-73 149-146.5T680-594q0-102-65-154t-135-52q-70 0-135 52t-65 154q0 67 49 139.5T481-300Zm-1 100Q339-304 269.5-402T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0-80Z"/>
+                    </svg>
+                    <a href="https://maps.app.goo.gl/fnTrU3BA5rdUXEt6A" target="_blank" class="text-blue-700 hover:underline ml-1">
+                        Location: Kuakata
+                    </a>
+                </span>
+                <div class="flex items-center space-x-2">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Comment
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Rate
+                    </button>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded">
+                        Order Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 [&>div]:transition [&>div]:duration-300 [&>div:hover]:bg-green-200/60">
+        <div class="bg-white/30 backdrop-blur-md p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="img7.jpg" alt="Card 7 Image" class="w-full h-40 object-cover rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-4">
+                Paharpur
+                <span class="float-right text-yellow-500 text-2xl shadow-lg">
+                    ★★★
+                </span>
+            </h2>
+            <p class="text-gray-700">
+                Paharpur, home to the Somapura Mahavihara in Bangladesh's Naogaon district, is a UNESCO World Heritage Site and one of the most important archaeological treasures of South Asia. Built in the 8th century by the Pala Emperor Dharmapala, this Buddhist monastery complex was a renowned center of learning and spirituality. The massive terraced structure, intricate terracotta artwork, and surrounding stupas reflect the grandeur of ancient Bengal. A key stop on . . . . 
+                <a href="#" class="text-blue-600 hover:underline">
+                    Read more
+                </a>
+            </p>
+            <div class="flex items-center justify-between mt-4">
+                <span class="flex items-center text-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue">
+                        <path d="M480-80q-106 0-173-33.5T240-200q0-24 14.5-44.5T295-280l63 59q-9 4-19.5 9T322-200q13 16 60 28t98 12q51 0 98.5-12t60.5-28q-7-8-18-13t-21-9l62-60q28 16 43 36.5t15 45.5q0 53-67 86.5T480-80Zm1-220q99-73 149-146.5T680-594q0-102-65-154t-135-52q-70 0-135 52t-65 154q0 67 49 139.5T481-300Zm-1 100Q339-304 269.5-402T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0-80Z"/>
+                    </svg>
+                    <a href="https://maps.app.goo.gl/1eh3shGotg3gH6CP8" target="_blank" class="text-blue-700 hover:underline ml-1">
+                        Location: Paharpur
+                    </a>
+                </span>
+                <div class="flex items-center space-x-2">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Comment
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Rate
+                    </button>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded">
+                        Order Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white/30 backdrop-blur-md p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="img8.jpg" alt="Card 8 Image" class="w-full h-40 object-cover rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-4">
+                Tanguar Haor
+                <span class="float-right text-yellow-500 text-2xl shadow-lg">
+                    ★
+                </span>
+            </h2>
+            <p class="text-gray-700">
+                Tanguar Haor, located in Sunamganj, Bangladesh, is a UNESCO Ramsar Site and one of the country’s most vital wetland ecosystems. Spanning 100 sq km, it hosts 200+ fish species and 150+ migratory birds (like Siberian ducks) in winter. Known as the "Amazon of Bangladesh," it features floating gardens (baira), lotus fields, and stilted villages. Best visited November–March, it offers boat tours to see dolphins, water lilies, and sunset views. A paradise . . . . 
+                <a href="#" class="text-blue-600 hover:underline">
+                    Read more
+                </a>
+            </p>
+            <div class="flex items-center justify-between mt-4">
+                <span class="flex items-center text-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue">
+                        <path d="M480-80q-106 0-173-33.5T240-200q0-24 14.5-44.5T295-280l63 59q-9 4-19.5 9T322-200q13 16 60 28t98 12q51 0 98.5-12t60.5-28q-7-8-18-13t-21-9l62-60q28 16 43 36.5t15 45.5q0 53-67 86.5T480-80Zm1-220q99-73 149-146.5T680-594q0-102-65-154t-135-52q-70 0-135 52t-65 154q0 67 49 139.5T481-300Zm-1 100Q339-304 269.5-402T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0-80Z"/>
+                    </svg>
+                    <a href="https://maps.app.goo.gl/i3g4PZ3NJ9QE2ps5A" target="_blank" class="text-blue-700 hover:underline ml-1">
+                        Location: Tanguar Haor
+                    </a>
+                </span>
+                <div class="flex items-center space-x-2">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Comment
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Rate
+                    </button>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded">
+                        Order Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="bg-white/30 backdrop-blur-md p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img src="img9.jpg" alt="Card 9 Image" class="w-full h-40 object-cover rounded-md mb-4">
+            <h2 class="text-xl font-semibold mb-4">
+                Lalbagh Fort
+                <span class="float-right text-yellow-500 text-2xl shadow-lg">
+                    ★★
+                </span>
+            </h2>
+            <p class="text-gray-700">
+                Lalbagh Fort, an iconic 17th-century Mughal monument in Old Dhaka, remains an unfinished masterpiece of Prince Muhammad Azam (son of Emperor Aurangzeb). Its red-brick complex features a central mosque, the tomb of Bibi Pari, and the Diwan-i-Aam palace, surrounded by lush gardens. Known for its fusion of Mughal and Bengali architecture, the fort is shrouded in legends, including the tragic story of Bibi Pari’s death halting its construction. A key historical site, it showcases terracotta . . . . 
+                <a href="#" class="text-blue-600 hover:underline">
+                    Read more
+                </a>
+            </p>
+            <div class="flex items-center justify-between mt-4">
+                <span class="flex items-center text-blue-700">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="blue">
+                        <path d="M480-80q-106 0-173-33.5T240-200q0-24 14.5-44.5T295-280l63 59q-9 4-19.5 9T322-200q13 16 60 28t98 12q51 0 98.5-12t60.5-28q-7-8-18-13t-21-9l62-60q28 16 43 36.5t15 45.5q0 53-67 86.5T480-80Zm1-220q99-73 149-146.5T680-594q0-102-65-154t-135-52q-70 0-135 52t-65 154q0 67 49 139.5T481-300Zm-1 100Q339-304 269.5-402T200-594q0-71 25.5-124.5T291-808q40-36 90-54t99-18q49 0 99 18t90 54q40 36 65.5 89.5T760-594q0 94-69.5 192T480-200Zm0-320q33 0 56.5-23.5T560-600q0-33-23.5-56.5T480-680q-33 0-56.5 23.5T400-600q0 33 23.5 56.5T480-520Zm0-80Z"/>
+                    </svg>
+                    <a href="https://maps.app.goo.gl/bbR7bmcAkkcnEYZq5" target="_blank" class="text-blue-700 hover:underline ml-1">
+                        Location: Lalbagh Fort
+                    </a>
+                </span>
+                <div class="flex items-center space-x-2">
+                    <button class="bg-gray-200 hover:bg-gray-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Comment
+                    </button>
+                    <button class="bg-yellow-200 hover:bg-yellow-300 text-gray-800 px-3 py-1 rounded-lg">
+                        Rate
+                    </button>
+                    <button class="bg-orange-600 hover:bg-orange-700 text-white px-3 py-1 rounded">
+                        Order Ticket
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
